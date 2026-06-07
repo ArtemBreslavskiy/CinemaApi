@@ -20,9 +20,23 @@ using (var scope = app.Services.CreateScope())
     {
 
         db.Movies.AddRange(
-            new Movie { Title = "Inception", Genre = "Sci-Fi", DurationMinutes = 148 },
-            new Movie { Title = "The Matrix", Genre = "Sci-Fi", DurationMinutes = 136 },
-            new Movie { Title = "Interstellar", Genre = "Sci-Fi", DurationMinutes = 169 }
+                new Movie { Title = "Inception", Genre = "Sci-Fi", DurationMinutes = 148 },
+                new Movie { Title = "The Matrix", Genre = "Sci-Fi", DurationMinutes = 136 },
+                new Movie { Title = "Interstellar", Genre = "Sci-Fi", DurationMinutes = 169 },
+                new Movie { Title = "The Shawshank Redemption", Genre = "Drama", DurationMinutes = 142 },
+                new Movie { Title = "The Godfather", Genre = "Crime", DurationMinutes = 175 },
+                new Movie { Title = "Pulp Fiction", Genre = "Crime", DurationMinutes = 154 },
+                new Movie { Title = "The Dark Knight", Genre = "Action", DurationMinutes = 152 },
+                new Movie { Title = "Forrest Gump", Genre = "Drama", DurationMinutes = 142 },
+                new Movie { Title = "Fight Club", Genre = "Drama", DurationMinutes = 139 },
+                new Movie { Title = "Goodfellas", Genre = "Crime", DurationMinutes = 146 },
+                new Movie { Title = "The Lord of the Rings: The Fellowship of the Ring", Genre = "Fantasy", DurationMinutes = 178 },
+                new Movie { Title = "Star Wars: Episode V - The Empire Strikes Back", Genre = "Sci-Fi", DurationMinutes = 124 },
+                new Movie { Title = "Parasite", Genre = "Thriller", DurationMinutes = 132 },
+                new Movie { Title = "Spirited Away", Genre = "Animation", DurationMinutes = 125 },
+                new Movie { Title = "The Prestige", Genre = "Mystery", DurationMinutes = 130 },
+                new Movie { Title = "Avengers: Endgame", Genre = "Action", DurationMinutes = 181 },
+                new Movie { Title = "Joker", Genre = "Drama", DurationMinutes = 122 }
         );
 
         db.Halls.AddRange(
